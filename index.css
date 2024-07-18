@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .header{
+    border:1px solid black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.header img{
+    width: 100px;
+    height: auto;
+}
+.header ul{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    min-width: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    border-radius: 8px;
+    background-color:#f0f0f0;
+    padding: 10px;
+    border: 1px solid black;
+    width: 220px;
+    min-height: 360px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.card *{
+    margin: 0;
+}
+.card:hover{
+transform: scale(1.02);
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 236px;
+}
+.card h3{
+    font-size: 24px;
+} */
+
+/* button */
+/* .filter-btn{
+    margin: 20px;
+    cursor: pointer;
+} */
+/* shimmer */
+/* .shimmerContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+/* .shimmerCards{
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 220px;
+    min-height: 360px;
+}
+.login-btn{
+    border-radius: 8px;
+    width: 100px;
+    margin: 20px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight:600;
+    text-transform: uppercase;
+    transition: 0.5s all ;
+    letter-spacing: 0.5px;
+}
+.loggedOut{
+    background: black;
+    color: white;
+}
+.logedIn{
+    background-color: white;
+    color: black;
+}
+.inputContainer{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 80px;
+    gap: 10px;
+
+}
+.inputContainer input{
+} */
+
+/* menucotnainer*/
+/* .btn-menucard{
+    width: 98px !important;
+    height: 38px !important;
+    border-radius: 8px !important;
+    color: white !important;
+    background-color: black !important;
+    border: none !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-weight: 400 !important;
+    text-align: center;
+    padding: 0 !important;
+    font-size: 16px !important;
+} */
+/* .menuContainer{
+    margin: 20px auto;
+    width: 90%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dishCard{
+   min-height: 180px;
+    border:1px solid black;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    margin-bottom: 10px;
+
+}
+.dishCard *{
+    padding: 0;
+    margin: 5px;
+}
+.dishCard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.des {
+width: 80% ;
+color: rgb(165, 160, 160);
+}
+.dishCard-image{
+    height: 150px;
+    width: 150px;
+  
+}
+.dishCard-image img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+} */
+/* shimmer menu */
+/* .shimmerMenuCard-container{
+    margin: 20px auto;
+    width: 90%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shimmerMenuCard{
+    width:100%;
+    min-height: 180px;
+     border:1px solid black;
+     background-color: #f0f0f0;
+     border-radius: 8px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding:10px 20px;
+} */
+
+/* accordion button */
+/* .szh-accordion{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menuContainer button{
+    height: 50px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+} */
+/*  */
+/* .btn-container{
+    width: 50%;
+    display:  flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-veg{
+    width: 80px !important;
+    background-color: green !important;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-veg:hover{
+    background-color: black !important;
+    color: green !important;
+}
+.btn-nonveg{
+    width:120px !important;
+    background-color:red !important;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-nonveg:hover{
+    background-color: black !important;
+    color: red !important;
+}
+.btn-reset{
+    width: 100px !important;
+    background-color: black !important;
+    color: white !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+} */
+
+/* user card */
+/* .user-card{
+    padding: 10px;
+    border: 1px solid lightblue;
+    width: 50%;
+    background-color: lightblue;
+    border-radius: 8px;
+} */
+/*  */
+/* .user-class-card{
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid lightblue;
+    width: 60%;
+    background-color: lightgreen;
+    border-radius: 8px;
+} */
+ 
+
+/* accordion styles */
+.szh-accordion{
+    width: 100%;
+}
+.szh-accordion__item-btn{
+    width: 100% !important;
+    text-align: left;
+    padding: 10px;
+    background-color:grey;
+    color: black;
+    margin-top: 10px;
+}
+/*  */
+
+.accordion {
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+  }
+  
+  .item {
+    border-bottom: 1px solid #fff;
+  }
+  
+  .itemBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(80, 79, 79);
+  }
+
+  .itemBtn:hover {
+    /* background-color: #f3f3f3; */
+    
+  }
+  
+  .itemBtnExpanded {
+    /* background-color: #e7e7e7; */
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .itemPanel {
+    /* padding: 1rem; */
+  }
+  
+  .chevron {
+    margin-left: auto;
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .itemBtnExpanded .chevron {
+    transform: rotate(180deg);
+  }
+  
