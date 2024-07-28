@@ -12,16 +12,30 @@ const useRestrauntMenu=function(resId){
         // const r=await req.json()
         // setRestaurant(r)
         // console.log(r)
-          fetch(`https://api.allorigins.win/get?url=${encodeURIComponent("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=11.01420&lng=76.99410&restaurantId="+resId)}`)
-        .then(response => {
-            if (response.ok) return response.json()
-            throw new Error('Network response was not ok.')
-        })
-        .then(data => {
-            const jsonObject = JSON.parse(data.contents);
-            console.log(jsonObject);
-            setRestaurant(jsonObject)
-        }).catch(error => console.error('Error:', error));
+             try {
+            const res = await fetch("https://handler-cors.vercel.app/fetch", {
+            method: "POST",
+            headers: {
+            "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+            url: MENU+resId, //Replace 
+            })
+            });
+            
+            if (!res.ok) {
+            throw new Error(`Error: ${res.status} ${res.statusText}`);
+            }
+            
+            
+            const raw = await res.json();
+            setRestaurant(raw)
+            console.log(raw); // see raw in console
+            
+            } 
+            catch (error) {
+            console.error("Error fetching data:", error);
+            }
     }
 return restaurant;
 }
